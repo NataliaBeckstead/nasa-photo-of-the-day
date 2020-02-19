@@ -31,3 +31,21 @@
     transform: rotate(360deg);
   }
 }
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #282c34;
+  color: red;
+}
+.footer-cont {
+  display: flex;
+  width: 20%;
+  flex-direction: row;
+  
+}
+
+.footer-logo {
+  max-height: 3rem;
+}
