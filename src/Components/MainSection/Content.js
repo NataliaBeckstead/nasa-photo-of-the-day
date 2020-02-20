@@ -56,13 +56,14 @@ export default function Photo() {
     return (
         <div className="main-container">
             <div className="date-descriptoion">
-                <div>
+                <div className="date-container">
                     <h3>{useCalendar ? photo.date : newPhoto.date}</h3>
-                    <DatePicker
+                    <DatePicker 
                        selected={startDate}
                        onChange={handleDateChange}
                        placeholderText="choose a date" 
                     />
+                    <p className="choose-text">Choose a day</p>
                 </div>  
                 <p className="explanation">{useCalendar ? photo.explanation : newPhoto.explanation}</p>
             </div>

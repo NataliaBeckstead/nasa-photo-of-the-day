@@ -67,12 +67,25 @@
   margin-bottom: 2rem;
 }
 
-h3 {
+.date-container {
   width: 50%;
   font-size: 2.5rem;
   text-align: center;
   align-self: center;
 }
+
+.calendar {
+  font-size: 2rem;
+  color: red;
+}
+
+h3 {
+ 
+  font-size: 2.5rem;
+  text-align: center;
+  align-self: center;
+}
+
 .explanation {
   width: 50%;
   margin: 2rem;
